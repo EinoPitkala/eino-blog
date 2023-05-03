@@ -12,4 +12,30 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20vw;
+  align-items: baseline;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 10px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.nav-links a:hover {
+  color: #d81818;
+}
+@media only screen and (max-width:768px) {
+  .navbar {
+    padding: 10px 5vw;
+  }
+  .nav-links a
+  {
+    font-size: 1rem;
+  }
+}
 
